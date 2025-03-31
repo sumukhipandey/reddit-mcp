@@ -59,7 +59,7 @@ To use this MCP with Claude Desktop:
   "mcpServers": {
     "Reddit Explorer": {
       "command": "/path/to/your/reddit-mcp/venv/bin/python",
-      "args": ["/path/to/your/reddit-mcp/main.py"],
+      "args": ["/path/to/your/reddit-mcp/direct_runner.py"],
       "env": {
         "REDDIT_CLIENT_ID": "your_client_id",
         "REDDIT_CLIENT_SECRET": "your_client_secret", 
