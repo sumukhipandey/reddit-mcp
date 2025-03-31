@@ -1,4 +1,3 @@
-# In src/server.py
 import logging
 import importlib
 from mcp.server.fastmcp import FastMCP

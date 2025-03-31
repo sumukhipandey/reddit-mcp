@@ -42,6 +42,7 @@ logs/
 # MCP specific
 .mcp/
 mcp_data/
+desktop_config.json
 
 # Testing
 .coverage
