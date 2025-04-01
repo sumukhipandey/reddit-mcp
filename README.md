@@ -62,7 +62,7 @@ To use this MCP with Claude Desktop:
       "args": ["/path/to/your/reddit-mcp/direct_runner.py"],
       "env": {
         "REDDIT_CLIENT_ID": "your_client_id",
-        "REDDIT_CLIENT_SECRET": "your_client_secret", 
+        "REDDIT_CLIENT_SECRET": "your_client_secret",
         "REDDIT_USERNAME": "your_username",
         "REDDIT_PASSWORD": "your_password",
         "REDDIT_USER_AGENT": "Reddit MCP v1.0 (by /u/your_username)"
@@ -75,24 +75,27 @@ To use this MCP with Claude Desktop:
 Replace the placeholder values with your actual Reddit API credentials and correct paths.
 
 2. Open Claude Desktop
-3. Go to Settings → Tools
-4. The Reddit Explorer tool should now be available
-5. Start a new conversation and enable the tool
+3. The Reddit Explorer tool should now be available
+4. Start a new conversation and enable the tool
 
 ## Available Resources
 
 ### Subreddit Resources
+
 - `subreddit://{subreddit_name}` - Get information about a subreddit
 - `subreddit://{subreddit_name}/hot` - Get hot posts from a subreddit
 
 ### Post Resources
+
 - `post://{post_id}` - Get a specific post by ID
 - `post://{post_id}/comments` - Get comments from a post
 
 ### User Resources
+
 - `user://{username}` - Get a user's profile information
 - `user://{username}/posts` - Get a user's recent posts
 
 ### Tools
+
 - `search_reddit` - Search for posts across Reddit
 - `get_trending_topics` - Get trending topics on Reddit
